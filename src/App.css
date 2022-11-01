@@ -1,0 +1,87 @@
+:root{
+    background-image: linear-gradient(lightblue,lightyellow, lightpink);
+    
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  h1{
+    text-align: center;
+  }
+  
+  label{
+    font-size: 20px;
+   
+  }
+  
+  .textbox{
+    margin: 20px;
+    background-color: skyblue;
+    height: 35px;
+    width: 200px;
+    border-radius: 20px;
+    border: 2px solid black;
+    
+  }
+  
+  .btn{
+    background-color: skyblue;
+    margin-left: 150px;
+    margin-top: 30px;
+    height: 40px;
+    width: 180px;
+    border: 2px solid black;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .formdata{
+    margin: 20px;
+    width: 30%;
+    margin: auto;
+    padding-left: 10px;
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  
+  .cardData{
+    background-color: lightblue;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns:  auto auto;
+    gap: 30px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    width: 80%;
+    height: 100%;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  span{
+    font-weight: 600;
+  }
+  .card{
+    background-color: lightpink;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  .UserData{
+    font-size: 20px;
+    text-align: center;
+  }
